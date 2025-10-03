@@ -1,6 +1,5 @@
 const CACHE_NAME = 'POS Mobile PWA';
 const urlsToCache = [
-  "/index.html",
   "/index.css",
   "/index.js"
 ];
