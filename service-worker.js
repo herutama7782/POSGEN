@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-cache-v1';
+const CACHE_NAME = 'POS Mobile PWA';
 const urlsToCache = [
   "/index.html",
   "/index.css",
