@@ -1,5 +1,5 @@
 const cacheName = "Omsetin UMKM"
-const preCache = ["/", "/style.css", "/script.js"]
+const preCache = ["/", "/index.css", "/script.js"]
 
 self.addEventListener("install", (e) => {
   console.log("service worker installed")
