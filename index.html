@@ -3,18 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>POS Mobile - Point of Sale</title>
-    
-    <!-- Mendaftarkan dan memuat serviceworker -->
-      <script>
-      window.addEventListener("load", () => {
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("sw.js")
-        }
-      })
-    </script>
-    <script src="./script.js"></script>
-    
+    <title>POS Mobile - Point of Sale</title>     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style id="print-style-overrides"></style>
@@ -64,6 +53,16 @@
         <p class="mt-4 text-gray-600">Memuat aplikasi...</p>
     </div>
 
+    <!-- Mendaftarkan dan memuat serviceworker -->
+      <script>
+      window.addEventListener("load", () => {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js")
+        }
+      })
+    </script>
+    <script src="./script.js"></script>
+    
     <!-- Main Application Wrapper -->
     <main id="appContainer" class="hidden">
         <!-- Dasbor Page -->
