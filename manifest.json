@@ -2,10 +2,10 @@
   "name": "Omsetin UMKM",
   "short_name": "Omsetin",
   "description": "A mobile-first Point of Sale application with barcode scanning for small businesses",
-  "start_url": "https://herutama7782.github.io/POSPWA/",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#5340dd",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
